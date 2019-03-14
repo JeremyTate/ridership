@@ -1,0 +1,19 @@
+Package: ridership
+Title: Functions for predicting bus ridership from wifi and GPS data collected with a raspberry pi
+Version: 1.0
+Authors@R: person("Jeremy", "Tate", email = "jeremy.b.tate@gmail.com",
+                  role = c("aut", "cre"))
+Description: Functions for predicting bus ridership from wifi and GPS data collected with a raspberry pi
+Depends: 
+    R (>= 3.5),
+    chron,
+    dplyr,
+    plyr,    
+    randomForest
+Suggests:
+    knitr,
+    leaflet
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1.9000
